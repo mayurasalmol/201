@@ -27,6 +27,6 @@ public class HelloWorldConfiguration extends WebMvcConfigurerAdapter {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
-		System.out.println("fffrereq");
+
 	}
 }
